@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8108223C2A4303F1001D5168 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8108223B2A4303F1001D5168 /* CommonButton.swift */; };
 		8109C2EA2A42C94B00CE2F84 /* GreenFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C2E92A42C94B00CE2F84 /* GreenFieldApp.swift */; };
 		8109C2EC2A42C94B00CE2F84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C2EB2A42C94B00CE2F84 /* ContentView.swift */; };
 		8109C2EE2A42C94B00CE2F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8109C2ED2A42C94B00CE2F84 /* Assets.xcassets */; };
@@ -14,6 +15,20 @@
 		8109C2FC2A42C94C00CE2F84 /* GreenFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C2FB2A42C94C00CE2F84 /* GreenFieldTests.swift */; };
 		8109C3062A42C94C00CE2F84 /* GreenFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3052A42C94C00CE2F84 /* GreenFieldUITests.swift */; };
 		8109C3082A42C94C00CE2F84 /* GreenFieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3072A42C94C00CE2F84 /* GreenFieldUITestsLaunchTests.swift */; };
+		8109C3172A42D00000CE2F84 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8109C3162A42D00000CE2F84 /* ComposableArchitecture */; };
+		8109C31A2A42D02500CE2F84 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3192A42D02500CE2F84 /* CounterFeature.swift */; };
+		8109C31C2A42D16500CE2F84 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C31B2A42D16500CE2F84 /* CounterView.swift */; };
+		8109C31E2A42DCD700CE2F84 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C31D2A42DCD700CE2F84 /* CounterFeatureTests.swift */; };
+		8109C3212A42DF7300CE2F84 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3202A42DF7300CE2F84 /* NumberFactClient.swift */; };
+		8109C3232A42E04400CE2F84 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3222A42E04400CE2F84 /* ContactsFeature.swift */; };
+		8109C3252A42E06900CE2F84 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3242A42E06900CE2F84 /* ContactsView.swift */; };
+		8109C3272A42E14500CE2F84 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3262A42E14500CE2F84 /* AddContactFeature.swift */; };
+		8109C3292A42E16B00CE2F84 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3282A42E16B00CE2F84 /* AddContactView.swift */; };
+		8109C32B2A42E8FA00CE2F84 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C32A2A42E8FA00CE2F84 /* ContactsFeatureTests.swift */; };
+		8109C32D2A42F05B00CE2F84 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C32C2A42F05B00CE2F84 /* ContactDetailFeature.swift */; };
+		8109C32F2A42F07F00CE2F84 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C32E2A42F07F00CE2F84 /* ContactDetailView.swift */; };
+		8109C3312A42F3CA00CE2F84 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3302A42F3CA00CE2F84 /* GridView.swift */; };
+		8109C3332A42F75000CE2F84 /* GridFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C3322A42F75000CE2F84 /* GridFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8108223B2A4303F1001D5168 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
 		8109C2E62A42C94B00CE2F84 /* GreenField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8109C2E92A42C94B00CE2F84 /* GreenFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFieldApp.swift; sourceTree = "<group>"; };
 		8109C2EB2A42C94B00CE2F84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +61,19 @@
 		8109C3012A42C94C00CE2F84 /* GreenFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8109C3052A42C94C00CE2F84 /* GreenFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFieldUITests.swift; sourceTree = "<group>"; };
 		8109C3072A42C94C00CE2F84 /* GreenFieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8109C3192A42D02500CE2F84 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		8109C31B2A42D16500CE2F84 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		8109C31D2A42DCD700CE2F84 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		8109C3202A42DF7300CE2F84 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		8109C3222A42E04400CE2F84 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		8109C3242A42E06900CE2F84 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		8109C3262A42E14500CE2F84 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		8109C3282A42E16B00CE2F84 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		8109C32A2A42E8FA00CE2F84 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
+		8109C32C2A42F05B00CE2F84 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+		8109C32E2A42F07F00CE2F84 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		8109C3302A42F3CA00CE2F84 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		8109C3322A42F75000CE2F84 /* GridFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8109C3172A42D00000CE2F84 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8108223A2A4303E6001D5168 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				8108223B2A4303F1001D5168 /* CommonButton.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
 		8109C2DD2A42C94B00CE2F84 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +133,11 @@
 		8109C2E82A42C94B00CE2F84 /* GreenField */ = {
 			isa = PBXGroup;
 			children = (
+				8108223A2A4303E6001D5168 /* BaseView */,
+				8109C31F2A42DF6A00CE2F84 /* Client */,
+				8109C3182A42D01B00CE2F84 /* Feature */,
+				8109C3142A42CA2C00CE2F84 /* View */,
 				8109C2E92A42C94B00CE2F84 /* GreenFieldApp.swift */,
-				8109C2EB2A42C94B00CE2F84 /* ContentView.swift */,
 				8109C2ED2A42C94B00CE2F84 /* Assets.xcassets */,
 				8109C2EF2A42C94B00CE2F84 /* GreenField.entitlements */,
 				8109C2F02A42C94B00CE2F84 /* Preview Content */,
@@ -116,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				8109C2FB2A42C94C00CE2F84 /* GreenFieldTests.swift */,
+				8109C31D2A42DCD700CE2F84 /* CounterFeatureTests.swift */,
+				8109C32A2A42E8FA00CE2F84 /* ContactsFeatureTests.swift */,
 			);
 			path = GreenFieldTests;
 			sourceTree = "<group>";
@@ -127,6 +170,39 @@
 				8109C3072A42C94C00CE2F84 /* GreenFieldUITestsLaunchTests.swift */,
 			);
 			path = GreenFieldUITests;
+			sourceTree = "<group>";
+		};
+		8109C3142A42CA2C00CE2F84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8109C2EB2A42C94B00CE2F84 /* ContentView.swift */,
+				8109C31B2A42D16500CE2F84 /* CounterView.swift */,
+				8109C3242A42E06900CE2F84 /* ContactsView.swift */,
+				8109C3282A42E16B00CE2F84 /* AddContactView.swift */,
+				8109C32E2A42F07F00CE2F84 /* ContactDetailView.swift */,
+				8109C3302A42F3CA00CE2F84 /* GridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8109C3182A42D01B00CE2F84 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				8109C3192A42D02500CE2F84 /* CounterFeature.swift */,
+				8109C3222A42E04400CE2F84 /* ContactsFeature.swift */,
+				8109C3262A42E14500CE2F84 /* AddContactFeature.swift */,
+				8109C32C2A42F05B00CE2F84 /* ContactDetailFeature.swift */,
+				8109C3322A42F75000CE2F84 /* GridFeature.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		8109C31F2A42DF6A00CE2F84 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				8109C3202A42DF7300CE2F84 /* NumberFactClient.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +221,9 @@
 			dependencies = (
 			);
 			name = GreenField;
+			packageProductDependencies = (
+				8109C3162A42D00000CE2F84 /* ComposableArchitecture */,
+			);
 			productName = GreenField;
 			productReference = 8109C2E62A42C94B00CE2F84 /* GreenField.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +296,9 @@
 				Base,
 			);
 			mainGroup = 8109C2DD2A42C94B00CE2F84;
+			packageReferences = (
+				8109C3152A42D00000CE2F84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 8109C2E72A42C94B00CE2F84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +341,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8108223C2A4303F1001D5168 /* CommonButton.swift in Sources */,
+				8109C32D2A42F05B00CE2F84 /* ContactDetailFeature.swift in Sources */,
+				8109C3212A42DF7300CE2F84 /* NumberFactClient.swift in Sources */,
+				8109C31A2A42D02500CE2F84 /* CounterFeature.swift in Sources */,
 				8109C2EC2A42C94B00CE2F84 /* ContentView.swift in Sources */,
+				8109C3272A42E14500CE2F84 /* AddContactFeature.swift in Sources */,
 				8109C2EA2A42C94B00CE2F84 /* GreenFieldApp.swift in Sources */,
+				8109C31C2A42D16500CE2F84 /* CounterView.swift in Sources */,
+				8109C3292A42E16B00CE2F84 /* AddContactView.swift in Sources */,
+				8109C3232A42E04400CE2F84 /* ContactsFeature.swift in Sources */,
+				8109C32F2A42F07F00CE2F84 /* ContactDetailView.swift in Sources */,
+				8109C3332A42F75000CE2F84 /* GridFeature.swift in Sources */,
+				8109C3312A42F3CA00CE2F84 /* GridView.swift in Sources */,
+				8109C3252A42E06900CE2F84 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8109C2FC2A42C94C00CE2F84 /* GreenFieldTests.swift in Sources */,
+				8109C32B2A42E8FA00CE2F84 /* ContactsFeatureTests.swift in Sources */,
+				8109C31E2A42DCD700CE2F84 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GreenField/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -427,10 +524,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.GreenField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +550,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GreenField/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -463,10 +561,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.GreenField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -604,6 +702,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8109C3152A42D00000CE2F84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8109C3162A42D00000CE2F84 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8109C3152A42D00000CE2F84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8109C2DE2A42C94B00CE2F84 /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  GreenFieldApp.swift
 //  GreenField
 //
-//  Created by Amon on 2023/06/21.
+//  Created by Woojin Lee on 2023/06/21.
 //
 
 import SwiftUI
