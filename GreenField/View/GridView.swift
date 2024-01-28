@@ -34,12 +34,10 @@ struct GridView: View {
     }
 }
 
-struct GridViewPreviews: PreviewProvider {
-    static var previews: some View {
-        GridView(
-            store: Store(initialState: GridFeature.State()) {
-                GridFeature()
-            }
-        )
-    }
+#Preview {
+    GridView(
+        store: Store(initialState: GridFeature.State()) {
+            GridFeature()
+        }
+    )
 }

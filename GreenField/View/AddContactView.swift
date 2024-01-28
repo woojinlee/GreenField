@@ -30,20 +30,20 @@ struct AddContactView: View {
     }
 }
 
-struct AddContactPreviews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     NavigationStack {
-      AddContactView(
-        store: Store(
-          initialState: AddContactFeature.State(
-            contact: Contact(
-              id: UUID(),
-              name: "Blob"
+        AddContactView(
+            store: .init(
+                initialState: AddContactFeature.State(
+                    contact: Contact(
+                        id: UUID(),
+                        name: "Blob"
+                    )
+                ),
+                reducer: {
+                    AddContactFeature()
+                }
             )
-          ),
-          reducer: AddContactFeature()
         )
-      )
     }
-  }
 }

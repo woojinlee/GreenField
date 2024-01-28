@@ -62,19 +62,19 @@ struct ContactsView: View {
     }
 }
 
-struct ContactsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContactsView(
-            store: Store(
-                initialState: ContactsFeature.State(
-                    contacts: [
-                        Contact(id: UUID(), name: "Blob"),
-                        Contact(id: UUID(), name: "Blob Jr"),
-                        Contact(id: UUID(), name: "Blob Sr"),
-                    ]
-                ),
-                reducer: ContactsFeature()
-            )
+#Preview {
+    ContactsView(
+        store: .init(
+            initialState: ContactsFeature.State(
+                contacts: [
+                    Contact(id: UUID(), name: "Blob"),
+                    Contact(id: UUID(), name: "Blob Jr"),
+                    Contact(id: UUID(), name: "Blob Sr"),
+                ]
+            ),
+            reducer: {
+                ContactsFeature()
+            }
         )
-    }
+    )
 }

@@ -15,25 +15,15 @@ struct GridFeature: ReducerProtocol {
     
     struct State: Equatable {
         var items: [Item] = [
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
-            Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1))),
             Item(color: Color(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1)))
         ]
     }
     
     enum Action: Equatable {
-        
+        // TODO: ...
     }
     
     func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
-        switch action {
-        
-        }
+        // TODO: ...
     }
 }
